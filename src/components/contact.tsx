@@ -172,8 +172,8 @@ export default function Contact() {
       <div className="flex flex-col items-start space-y-3">
         <h4 className="text-lg font-semibold">Psst! A little secret... 🤫</h4>
         <p>
-          This fancy form above? Yeah, it doesn't actually send me emails. 
-          It's just a pretty UI demonstration. 🎭 Sorry to burst your bubble! 
+          This fancy form above? Yeah, it doesnt actually send me emails. 
+          Its just a pretty UI demonstration. 🎭 Sorry to burst your bubble! 
         </p>
         <p>
           If you <i>actually</i> want to reach me, try my email or phone 
@@ -181,7 +181,7 @@ export default function Contact() {
           <span className="font-bold">over there on the right</span>.
         </p>
         <p>
-          Or slide into my Instagram DMs if you're feeling social. 
+          Or slide into my Instagram DMs if youre feeling social. 
           I promise I check those more than this non-functional form! 😂
         </p>
         <p>
