@@ -39,13 +39,13 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold mb-4">A Passionate Developer</h3>
             <p className="text-muted-foreground mb-6">
-  Im a web developer passionate about creating clean, functional experiences. Currently, Im learning Next.js and TypeScript to enhance my front-end development skills.
+  I&apos;m a web developer passionate about creating clean, functional experiences. Currently, I&apos;m learning Next.js and TypeScript to enhance my front-end development skills.
 </p>
 <p className="text-muted-foreground mb-6">
-  My journey in web development has been fueled by a drive to build modern and efficient applications. Im always eager to collaborate on projects that help diversify my knowledge and improve my expertise.
+  My journey in web development has been fueled by a drive to build modern and efficient applications. I&apos;m always eager to collaborate on projects that help diversify my knowledge and improve my expertise.
 </p>
 <p className="text-muted-foreground">
-  When Im not coding, I focus on building my portfolio, improving front-end skills, and learning modern web architecture. I develop for fun and to challenge myself.
+  When I&apos;m not coding, I focus on building my portfolio, improving front-end skills, and learning modern web architecture. I develop for fun and to challenge myself.
 </p>
 
           </motion.div>
@@ -129,4 +129,3 @@ export default function About() {
     </section>
   )
 }
-

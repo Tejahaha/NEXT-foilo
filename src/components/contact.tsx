@@ -159,39 +159,36 @@ export default function Contact() {
             </Card>
             
             {/* Added empty container below the form */}
-            <motion.div
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true }}
-  transition={{ duration: 0.5, delay: 0.4 }}
-  variants={fadeIn}
-  className="mt-8"
->
-  <Card>
-    <CardContent className="p-6">
-      <div className="flex flex-col items-start space-y-3">
-        <h4 className="text-lg font-semibold">Psst! A little secret... 🤫</h4>
-        <p>
-          This fancy form above? Yeah, it doesnt actually send me emails. 
-          Its just a pretty UI demonstration. 🎭 Sorry to burst your bubble! 
-        </p>
-        <p>
-          If you <i>actually</i> want to reach me, try my email or phone 
-          <span className="inline-block ml-1 transform rotate-45">👉</span> 
-          <span className="font-bold">over there on the right</span>.
-        </p>
-        <p>
-          Or slide into my Instagram DMs if youre feeling social. 
-          I promise I check those more than this non-functional form! 😂
-        </p>
-        <p>
-        Love Ya ❤️
-        </p>
-      </div>
-    </CardContent>
-  </Card>
-</motion.div>
-          </motion.div>
+              <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              variants={fadeIn}
+              className="mt-8"
+            >
+              <Card>
+                <CardContent className="p-6">
+                  <div className="flex flex-col items-start space-y-3">
+                    <h4 className="text-lg font-semibold">Psst! A little secret... 🤫</h4>
+                    <p>
+                      This fancy form above? Yeah, it doesn&apos;t actually send me emails. 
+                      It&apos;s just a pretty UI demonstration. 🎭 Sorry to burst your bubble! 
+                    </p>
+                    <p>
+                      If you <i>actually</i> want to reach me, try my email or phone 
+                      <span className="inline-block ml-1 transform rotate-45">👉</span> 
+                      <span className="font-bold">over there on the right</span>.
+                    </p>
+                    <p>
+                      Or slide into my Instagram DMs if you&apos;re feeling social. 
+                      I promise I check those more than this non-functional form! 😂
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </motion.div>
+                      </motion.div>
 
           <motion.div
             initial="hidden"
