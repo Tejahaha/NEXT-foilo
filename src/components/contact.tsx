@@ -8,7 +8,6 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { toast } from "@/components/ui/use-toast"
 import { Mail, MapPin, Phone, Github, Linkedin, Instagram } from "lucide-react"
 
 export default function Contact() {
@@ -38,10 +37,6 @@ export default function Contact() {
     // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1500))
 
-    toast({
-      title: "Message sent!",
-      description: "Thank you for your message. I'll get back to you soon.",
-    })
 
     setFormData({
       name: "",
