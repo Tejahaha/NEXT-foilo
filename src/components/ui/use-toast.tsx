@@ -2,6 +2,9 @@ export const toast = ({ title, description }: { title: string; description?: str
   // In a real implementation, this would use a toast library or context
   console.log(`Toast: ${title} - ${description}`);
 
+  // Only run in browser environment
+  if (typeof window === 'undefined') return;
+
   // Create a temporary toast element
   const toastElement = document.createElement("div");
   toastElement.className = "fixed top-4 right-4 bg-background border rounded-md shadow-md p-4 max-w-md z-50";
